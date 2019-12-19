@@ -6,7 +6,7 @@ spec:
   secretName: 35.240.181.15-xip-io
   issuerRef:
     name: letsencrypt-prod
-    kind: CLusterIssuer
+    kind: ClusterIssuer
   commonName: 35.240.181.15.xip.io
   dnsNames:
     - 35.240.181.15.xip.io
